@@ -18,7 +18,7 @@ unsigned int line_number = 0;
 FILE *file;
 if (argc != 2)
 {
-fprintf(stderr, "Usage: %s <filename>\n", argv[0]);
+fprintf(stderr, "USAGE: monty file");
 return (EXIT_FAILURE);
 }
 file = fopen(argv[1], "r");
